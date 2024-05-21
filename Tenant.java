@@ -4,7 +4,7 @@ import java.util.Map;
 public class Tenant extends User{
     private Map<String, RentalContract> contractList;
 
-    public Tenant(String id, String pass, String mail, String type){
+    public Tenant(String id, String pass, String mail, UserType type){
         super(id, pass, mail, type);
         contractList= new HashMap<>();
     }
