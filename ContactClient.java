@@ -7,6 +7,6 @@ public class ContactClient {
         contract.BuildTenant("231");
         contract.RentAmount(0.0);
         Contract contractno1 = contract.signContract();
-        System.out.println(contractno1  +contract.getClass().getName());
+        System.out.println(contractno1  +" "+contract.getClass().getName());
     }
 }

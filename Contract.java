@@ -35,7 +35,6 @@ public class Contract {
     }
     @Override
     public String toString() {
-        // TODO Auto-generated method stub
         return contractID+" "+propertyID+" "+tenantID+" "+rentAmount;
     }
 

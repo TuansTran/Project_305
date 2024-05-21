@@ -16,7 +16,4 @@ public class Tenant extends User{
     public void deleteContract(String id){
         contractList.remove(id);
     }
-
-
-
 }   
